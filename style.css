@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@400;600&family=Quicksand:wght@300&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@400;600&family=Quicksand:wght@300&family=Roboto:wght@300;400&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Nunito:wght@300&family=Poppins:wght@400;600&family=Quicksand:wght@300&family=Roboto:wght@300;400&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    background-color:rgb(163, 158, 158);
+    width:434px ;
+    font-family: 'Nunito', sans-serif;  
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px ;
+    padding:33px 0px;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+    padding-left: 38px;
+}
+
+.infoContainer{
+    /* background-color: pink; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    width: 34vw;
+    height: 78vh;   
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 65px;
+}   
+
+.name{
+font-size: 50px;
+font-weight: bold;
+font-family: 'Source Code Pro', monospace;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.btn button{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: blueviolet;
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer;
+}
+
+.btn1 {
+padding: 5px 14px;
+border-radius: 22px;
+color: white;
+background-color: blueviolet;
+font-weight: bold;
+font-size: 11px;
+margin: 0 3px;
+cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.btn{
+    margin-top: 32px;
+}
+
+
+.moreAbout{
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 23px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+
+.contactForm{
+    font-family: 'Nunito', sans-serif;  
+    padding: 0 34px;
+    padding-top: 144px;
+}
+h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    padding: 12px 0 ;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input{
+    width: 26vw;    
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#form-check{
+    flex: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0 ;
+}
+
+
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#clientemail{
+    padding-left: 152px;
+    border-radius: 10px;
+}
+
+#clientPhone{
+    padding-left: 152px;
+    border-radius: 10px;
+    /* padding-right: 29px; */
+}
+
+.blogItem{
+ margin: 20px;
+ font-family: 'Nunito', sans-serif;  
+}
+
+devInfo h2{
+    font-family: 'Source Code Pro', monospace; 
+    margin: 23px;
+
+}
+
+devInfo p{
+ padding: 1px;
+ padding: 13px 0px 0px 24px;
+}
+
+h2{
+    font-family: 'Source Code Pro', monospace; 
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.btn2{
+    padding: bottom 30px;px;
+}
+
+.skillContainer{
+    padding-left: 72px;
+    padding-top: 70px;
+}
+
+.skill{
+    width: 265px;
+    height: 10px;
+    background-color: red ;
+    border: 2px solid black ;
+    font-family: 'Source Code Pro', monospace; 
+    font-weight: 800;
+}
+
+.skillContainer devInfo{
+    padding-left: 72px;
+    padding-top: 70px;
+}
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.all{
+    background-color: green;
+    width: 265px;
+}
+
+.half{
+    background-color: rgb(241, 160, 10);
+    width: 130px;
+}
+
+.morethanHalf{
+    background-color: greenyellow;
+    width: 198px;
+}
+
+.noting{
+    background-color: red;
+    width: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
