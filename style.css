@@ -9,10 +9,15 @@
 }
 
 .sidebar{
-    background-color:rgb(163, 158, 158);
     width:434px ;
     font-family: 'Nunito', sans-serif;  
+    background-color: #1b2b28;
     height: 100vh;
+    /* background-image: url("https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"); */
+}
+
+.sidebar nav ul li a{
+    color: aliceblue;
 }
 
 .sidebar nav{
@@ -36,6 +41,7 @@
     background-size: cover ;
 }
 
+
 .container{
     display: flex;
     padding-left: 38px;
@@ -45,7 +51,8 @@
     /* background-color: pink; */
     height: 58vh;
     width: 80vw;
-    margin: 144px auto;
+    margin-left: 50px;
+    margin-top: 144px;
     display: flex;
     justify-content: space-around;
 }
@@ -62,9 +69,14 @@
     color: antiquewhite;
 }
 
+.introPara{
+    font-size: x-large;
+}
+
 .coderInfo{
     color: black;
     padding-top: 20px;
+    padding-left: 50px;
        
 }
 
@@ -126,7 +138,6 @@ cursor: pointer;
 
 .sidebar nav li a{
     text-decoration: none;
-    color:black;
 }
 
 .contactForm{
@@ -187,7 +198,7 @@ h1{
 }
 
 devInfo h2{
-    font-family: 'Source Code Pro', monospace; 
+    font-family: 'Nunito', sans-serif; 
     margin: 23px;
 
 }
@@ -198,11 +209,11 @@ devInfo p{
 }
 
 h2{
-    font-family: 'Source Code Pro', monospace; 
+    font-family: 'Nunito', sans-serif; 
 }
 
 p{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Nunito', sans-serif;
 }
 
 .btn2{
@@ -216,7 +227,7 @@ p{
 
 .skill{
     width: 265px;
-    height: 10px;
+    height: 30px;
     background-color: red ;
     border: 2px solid black ;
     font-family: 'Source Code Pro', monospace; 
@@ -227,12 +238,17 @@ p{
     padding-left: 72px;
     padding-top: 70px;
 }
-}
+
 .skillItem{
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center;  
+    padding-bottom: 15px; 
+    padding-left: 20px; 
+}
+
+.introHeader{
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 .all{
@@ -255,7 +271,34 @@ p{
     width: 2px;
 }
 
+.fab {
+    size: 50px;
+    color: rgb(244, 38, 38);
+}
 
+.linkedin{
+    text-decoration: none;
+}
+
+.socialSites{
+    display: flex;
+}
+.pad{
+    padding-left: 7px;
+    padding-top: 20px;
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-github{
+    color: #1b2b28;
+}
+
+.fa-linkedin{
+    color: #0a66c2;
+}
 
 
 
